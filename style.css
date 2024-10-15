@@ -1,0 +1,162 @@
+body{
+    font-family: 'Roboto', sans-serif ;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    background-color: #1F2937;
+    padding: 16px 200px 100px 200px;
+}
+
+.header-top{
+    display: flex;
+    align-items: center;
+
+}
+
+.header .header-top div{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header .header-top ul{
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+    text-decoration: none;
+    margin:0 0 0 auto;
+    padding:0px;
+}
+
+.header-top ul li a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-container{
+    display: flex;
+    margin-top: 100px;
+    gap: 42px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex: 1 1 0;
+}
+.about .text{
+font-size: 48px;
+color: #F9FAF8;
+font-weight: 900;
+margin-bottom: auto;
+}
+
+.about .information{
+font-size: 18px;
+color: #E5E7EB;
+}
+
+.header-container img{
+flex: 1 1 0;
+}
+
+.header-container .about button{
+    margin-top: auto;
+    background-color: #3882F6;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    height: 30px;
+    width: 90px;
+    border-radius: 8px;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+}
+
+.info-header{
+font-weight: 900;
+font-size: 36px;
+color: #1F2937;
+justify-content: center;
+align-items: center;
+margin: 30px;
+text-align: center;
+}
+
+.articles{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+    max-width: 250px;
+    align-items: baseline;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+}
+
+.cards a .img{
+border: 5px solid #3882F6;
+border-radius: 8px;
+max-width: 250px;
+flex: 1 1 0;
+margin: 0%;
+padding: 0%;
+}
+
+.img-link{
+margin: 0;
+padding: 0%;
+}
+
+.img-div{
+    margin-bottom: 10px;
+    padding: 0%;
+}
+
+a, a:visited, a:hover, a:focus,
+a:active {
+  color:#1F2937;
+  text-decoration: none;
+}
+
+.cards .text{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.cards .text a{
+    margin: 0px;
+    padding: 0%;
+}
+
+.footer{
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    width: auto;
+    height: 64px;
+}
+
+div{
+    color: white;
+}
